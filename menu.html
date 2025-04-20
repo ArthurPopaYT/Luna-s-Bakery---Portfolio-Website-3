@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Luna's Bakery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">Luna's Bakery</a>
+                <div class="nav-toggle" id="navToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html" class="active">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="page-header">
+            <div class="container">
+                <h1>Our Menu</h1>
+                <p>Everything is made fresh daily with premium ingredients</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="menu-section">
+            <div class="container">
+                <div class="menu-categories">
+                    <button class="menu-category active" data-category="all">All</button>
+                    <button class="menu-category" data-category="breads">Breads</button>
+                    <button class="menu-category" data-category="pastries">Pastries</button>
+                    <button class="menu-category" data-category="cakes">Cakes</button>
+                    <button class="menu-category" data-category="cookies">Cookies</button>
+                    <button class="menu-category" data-category="seasonal">Seasonal</button>
+                </div>
+
+                <div class="menu-items-container">
+                    <h2 class="category-title">Breads</h2>
+                    <div class="menu-items">
+                        <div class="menu-item" data-category="breads">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1555951015-6da899b5c2cd?q=80&w=1983&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Sourdough Bread">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Sourdough Bread</h3>
+                                <p>Our signature sourdough loaf with a perfectly crisp crust and chewy interior.</p>
+                                <span class="price">$6.95</span>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="breads">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1568471173242-461f0a730452?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3" alt="French Baguette">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>French Baguette</h3>
+                                <p>Traditional French baguette with a golden crust and light, airy center.</p>
+                                <span class="price">$4.50</span>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="breads">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1604917877934-07d8d248d396?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Whole Grain Loaf">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Whole Grain Loaf</h3>
+                                <p>Hearty multigrain bread packed with seeds and whole grains.</p>
+                                <span class="price">$7.25</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="category-title">Pastries</h2>
+                    <div class="menu-items">
+                        <div class="menu-item" data-category="pastries">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1550617931-e17a7b70dce2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Butter Croissant">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Butter Croissant</h3>
+                                <p>Classic French croissant with a flaky exterior and buttery layers.</p>
+                                <span class="price">$3.50</span>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="pastries">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1608489542129-19900cd549e7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Pain au Chocolat">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Pain au Chocolat</h3>
+                                <p>Buttery croissant dough wrapped around rich dark chocolate.</p>
+                                <span class="price">$4.25</span>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="pastries">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Mixed Berry Danish">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Mixed Berry Danish</h3>
+                                <p>Flaky pastry filled with vanilla custard and topped with seasonal berries.</p>
+                                <span class="price">$4.75</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="category-title">Cakes</h2>
+                    <div class="menu-items">
+                        <div class="menu-item" data-category="cakes">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1989&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Chocolate Decadence Cake">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Chocolate Decadence Cake</h3>
+                                <p>Rich chocolate cake layered with ganache and chocolate buttercream.</p>
+                                <span class="price">$6.95 / slice</span>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="cakes">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Carrot Cake">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Carrot Cake</h3>
+                                <p>Moist carrot cake with walnuts, topped with cream cheese frosting.</p>
+                                <span class="price">$5.95 / slice</span>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="cakes">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Vanilla Bean Cake">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Vanilla Bean Cake</h3>
+                                <p>Delicate vanilla cake with layers of fresh berries and whipped cream.</p>
+                                <span class="price">$5.95 / slice</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="category-title">Cookies</h2>
+                    <div class="menu-items">
+                        <div class="menu-item" data-category="cookies">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1618923850107-d1a234d7a73a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Chocolate Chip Cookie">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Chocolate Chip Cookie</h3>
+                                <p>Classic cookie with crisp edges and a soft center loaded with chocolate chips.</p>
+                                <span class="price">$2.75</span>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="cookies">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1548848221-0c2e497ed557?q=80&w=1939&auto=format&fit=crop&ixlib=rb-4.0.3" alt="French Macarons">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>French Macarons</h3>
+                                <p>Delicate almond meringue cookies with various flavored fillings.</p>
+                                <span class="price">$2.95 each</span>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="cookies">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1590080875897-b33611b3a010?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Butter Shortbread">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Butter Shortbread</h3>
+                                <p>Buttery, crumbly shortbread cookies that melt in your mouth.</p>
+                                <span class="price">$1.95</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="category-title">Seasonal Specials</h2>
+                    <div class="menu-items">
+                        <div class="menu-item" data-category="seasonal">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1509461399763-ae67a981b254?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Pumpkin Pie">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Pumpkin Pie (Fall)</h3>
+                                <p>Creamy pumpkin custard in a flaky crust with warm spices.</p>
+                                <span class="price">$24.95 / whole pie</span>
+                            </div>
+                        </div>
+                        <div class="menu-item" data-category="seasonal">
+                            <div class="menu-item-image">
+                                <img src="https://images.unsplash.com/photo-1519915028121-7d3463d20b13?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Summer Fruit Tart">
+                            </div>
+                            <div class="menu-item-info">
+                                <h3>Summer Fruit Tart</h3>
+                                <p>Buttery tart shell filled with vanilla pastry cream and topped with fresh seasonal fruits.</p>
+                                <span class="price">$5.95 / slice</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="special-orders">
+            <div class="container">
+                <h2 class="section-title">Special Orders</h2>
+                <p>Need a custom cake for a special occasion? We create beautiful, delicious cakes for birthdays, weddings, and celebrations of all kinds.</p>
+                <a href="contact.html" class="btn btn-primary">Contact Us</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Luna's Bakery</h3>
+                    <p>123 Main Street<br>Bakerytown, BT 12345</p>
+                    <p>Phone: (555) 123-4567</p>
+                    <p>Email: hello@lunasbakery.com</p>
+                </div>
+                <div class="footer-hours">
+                    <h3>Hours</h3>
+                    <p>Monday - Friday: 7am - 7pm</p>
+                    <p>Saturday: 8am - 8pm</p>
+                    <p>Sunday: 8am - 5pm</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Luna's Bakery. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
