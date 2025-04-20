@@ -14,29 +14,6 @@ A beautiful responsive website for a fictional bakery called Luna's Bakery. This
   - FAQ accordion
   - Contact form with validation
 
-## Getting Started
-
-### Prerequisites
-
-- A modern web browser
-- Git (for cloning the repository)
-
-### Installation
-
-1. Clone the repository to your local machine or download the ZIP file.
-2. Navigate to the project directory.
-3. Open `index.html` in your browser to view the website.
-
-### Deployment on GitHub Pages
-
-To deploy this website on GitHub Pages:
-
-1. Push the code to your GitHub repository.
-2. Go to the repository settings on GitHub.
-3. Scroll down to the "GitHub Pages" section.
-4. Select the branch you want to deploy (usually `main` or `master`).
-5. The website will be available at `https://yourusername.github.io/repository-name`.
-
 ## Customization
 
 ### Images
